@@ -1,5 +1,6 @@
 {
   "name": "sp-advertising-demo4",
+  "homepage": "https://rajurao1106.github.io/sp-advertising-demo4/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,7 +12,8 @@
   },
   "dependencies": {
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.0"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
