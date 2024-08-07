@@ -15,8 +15,8 @@ function Navbar() {
       <div className="menu">
         <ul className='navbar-menu'>
 
-        <Link to={"/"} >Home</Link>
-        <Link to={"/about"}>About</Link>
+        <Link to={"/sp-advertising-demo4"} >Home</Link>
+        <Link to={"about"}>About</Link>
 
         <div className="services">
         <div className="up-down">

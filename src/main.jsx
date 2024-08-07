@@ -8,15 +8,15 @@ import AboutMe from './components/AboutMe/AboutMe.jsx'
 
 const router = createBrowserRouter([
   {
-    path:"/",
+    path:"/sp-advertising-demo4/",
     element:<App/>,
     children: [
       {
-        path:"/",
+        path:"/sp-advertising-demo4/",
         element:<Home/>
       },
       {
-        path:"about",
+        path:"/sp-advertising-demo4/about",
         element:<AboutMe/>,
       }
     ]
