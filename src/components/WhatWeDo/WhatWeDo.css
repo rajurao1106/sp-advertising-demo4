@@ -28,10 +28,13 @@
 }
 .heading{
     width: 100%;
-    text-align: center;
+    height: 50px;
     background-color: #265AA5;
     color: white;
     border-radius: 8px 8px 0 0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
 }
 .wwd-box{
     width: 20rem;
@@ -48,9 +51,12 @@
     height: 15rem;
 }
 .points{
+    padding-top: 10px;
+    padding-bottom: 10px;
     width: 18rem;
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 .heading h1{
     color: white;

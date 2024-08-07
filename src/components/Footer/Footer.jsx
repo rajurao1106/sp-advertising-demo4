@@ -18,7 +18,7 @@ function Footer() {
           <img className='footer-logo' src={logo} alt="" />
           <h2>Transform Your Brand with Innovative Advertising Solutions - Elevate, Engage, and Inspire Your Audience Today!</h2>
           <div className="icon-con">
-          <Link to={"/contact"}><button>Contact Us</button></Link>
+          <Link to={"Contact"}><button>Contact Us</button></Link>
         <div className="icons">
                   <a href="https://www.facebook.com/spadvertisingraipur"><img src={facebook} alt="" /></a>
                   <a href="https://www.instagram.com/spadvertisingrpr/"><img src={instagram} alt="" /></a>
@@ -29,27 +29,28 @@ function Footer() {
         <div className="footer-box2">
           <ul>
           <h3>Pages</h3>
-          <Link to={"/"}><li>Home</li></Link>
-          <Link to={"/about-me"}><li>About Us</li></Link>
-          <Link to={"/welcome-page"}><li>Clients</li></Link>
+          <Link to={"/sp-advertising-demo4/"}><li>Home</li></Link>
+          <Link to={"about"}><li>About Us</li></Link>
+          <Link to={"Welcome-page"}><li>Clients</li></Link>
           </ul>
             
         </div>
         <div className="footer-box3">
           <ul>
           <h3>Services</h3>
-          <Link to={"/Outdoor-Advertising"}><li>Outdoor Advertising</li></Link>
-          <Link to={"/Digital-Marketing"}><li>Digital Marketing</li></Link>
-          <Link to={"/Designing-Services"}><li>Event Promotion</li></Link>
-          <Link to={"/Print-Media"}><li>Designing Services</li></Link>
-          <Link to={"/Branding-Strategy"}><li>Print Media</li></Link>
-          <Link to={"/Event-Promotion"}><li>Branding & Strategy</li></Link>
+          <Link to={"Outdoor-Advertising"}><li>Outdoor Advertising</li></Link>
+          <Link to={"Digital-Marketing"}><li>Digital Marketing</li></Link>
+          <Link to={"Designing-Services"}><li>Event Promotion</li></Link>
+          <Link to={"Print-Media"}><li>Designing Services</li></Link>
+          <Link to={"Branding-Strategy"}><li>Print Media</li></Link>
+          <Link to={"Event-Promotion"}><li>Branding & Strategy</li></Link>
           </ul>
         </div>
         
       </div>
         
       </div>
+      <br />
       <hr />
       <div className="copyright">
         <p>Copyright © 2024 SP Advertising - All Rights Reserved.</p>

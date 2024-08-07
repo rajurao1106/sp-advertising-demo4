@@ -23,7 +23,7 @@ function Home() {
             <p>Elevate your business with our expert strategies, innovative solutions, and dedicated support. Achieve growth, success, and excellence. Partner with us and thrive in today's competitive market!</p>
             <div className="web-btn">
                 
-                <Link to={"/services"}><button>Browse Services</button></Link>
+                <Link to={"WhatWeDo"}><button>Browse Services</button></Link>
             </div>
         </div>
         <div className="image">

@@ -40,7 +40,7 @@ function Blog() {
             </div>
         </div>
         <div className="latest-article">
-        <Link to={"/Outdoor-Advertising"} className="article-box">
+        <Link to={"/sp-advertising-demo4/Outdoor-Advertising"} className="article-box">
                 <div className="img-text">
                     
                     <img src={img1} alt="" />
@@ -48,35 +48,35 @@ function Blog() {
                 </div>
                 <p>Read More</p>
             </Link>
-            <Link to={"/Digital-Marketing"} className="article-box">
+            <Link to={"/sp-advertising-demo4/Digital-Marketing"} className="article-box">
                 <div className="img-text">
                     <img src={img2} alt="" />
                     <h3>Connecting Brands with Audiences: Digital Marketing Strategies for Enhanced Engagement</h3>
                 </div>
                 <p>Read More</p>
             </Link>
-            <Link to={"/Designing-Services"} className="article-box">
+            <Link to={"/sp-advertising-demo4/Designing-Services"} className="article-box">
                 <div className="img-text">
                     <img src={img3} alt="" />
                     <h3>Visual Storytelling: Designing Services for Enhanced Brand Identity and User Experience</h3>
                 </div>
                 <p>Read More</p>
             </Link>
-            <Link to={"/Print-Media"} className="article-box">
+            <Link to={"/sp-advertising-demo4/Print-Media"} className="article-box">
                 <div className="img-text">
                     <img src={img5} alt="" />
                     <h3>Crafting Unique Brand Identities: Strategic Planning for Long-Term Success</h3>
                 </div>
                 <p>Read More</p>
             </Link>
-            <Link to={"/Branding-Strategy"} className="article-box">
+            <Link to={"/sp-advertising-demo4/Branding-Strategy"} className="article-box">
                 <div className="img-text">
                     <img src={img4} alt="" />
                     <h3>Tangible Impact: The Enduring Power of Print Media in Advertising</h3>
                 </div>
                 <p>Read More</p>
             </Link>
-            <Link to={"/Event-Promotion"} className="article-box">
+            <Link to={"/sp-advertising-demo4/Event-Promotion"} className="article-box">
                 <div className="img-text">
                     <img src={img6} alt="" />
                     <h3>Driving Engagement and Attendance: Effective Strategies for Event Promotion</h3>

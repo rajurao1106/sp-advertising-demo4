@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom'
 function AboutMe() {
   return (
     <div className='about-me' id='about'>
-        <h1>ABOUT ME</h1>
+        <h1>ABOUT ME</h1><br /><br />
       <div className="about-me-con">
         <img className='blur-image' src={blur_img} alt="" />
         <div className="about-me-box">

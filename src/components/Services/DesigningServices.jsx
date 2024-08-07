@@ -56,7 +56,7 @@ function DesigningServices() {
         
       
       </div>
-      <Link to={"/contact"}><button>Get In Touch</button></Link>
+      <Link to={"/sp-advertising-demo4/Contact"}><button>Get In Touch</button></Link>
     </div>
   </div>
   )

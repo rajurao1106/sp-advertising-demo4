@@ -101,6 +101,7 @@ hr{
     display: flex;
     justify-content: space-around;
     font-size: 15px;
+    padding: 10px;
 }
 .copyright div{
     display: flex;

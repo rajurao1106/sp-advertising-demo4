@@ -15,7 +15,7 @@ function ScrollEffect() {
             <h1>Your brand's success is our mission</h1>
             <p>SP Advertising is an independent, creatively driven full services marketing communications agency born and groomed in Raipur Chhattisgarh, providing services across India.  </p>
             </div>
-            <Link to={"/choose-us"}><button>Read More</button></Link>
+            <Link to={"Choose-Us"}><button>Read More</button></Link>
         </div>
       </div>
       <div className='div1'>

@@ -28,7 +28,7 @@ function WelcomePage() {
 
   return (
     <div className='welcome' id='welcome'>
-        <h1>WELCOME TO SP ADVERTISING AGENCY</h1>
+        <h1>WELCOME TO SP ADVERTISING AGENCY</h1><br />
       <div className="welcome-con">
         <div className="welcome-box">
         <div className="logo2">
