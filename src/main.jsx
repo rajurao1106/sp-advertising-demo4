@@ -3,21 +3,21 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Home from './pages/Home.jsx';
-import Contact from './pages/Contact.jsx';
+import Home from './components/Home/Home.jsx';
+import AboutMe from './components/AboutMe/AboutMe.jsx'
 
 const router = createBrowserRouter([
   {
-    path:"/sp-advertising-demo4/",
+    path:"/",
     element:<App/>,
     children: [
       {
-        path:"/sp-advertising-demo4/",
+        path:"/",
         element:<Home/>
       },
       {
-        path:"/sp-advertising-demo4/contact",
-        element:<Contact/>,
+        path:"about",
+        element:<AboutMe/>,
       }
     ]
   }
